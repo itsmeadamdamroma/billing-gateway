@@ -6,7 +6,7 @@ The Makefile targets alone are NOT a complete deployment.
 
 The complete, authoritative deployment procedure is maintained in the external project runbook:
 
-**https://releases.decastropt.com/runbook-v5**
+**https://releases.decastropt.com/runbook-v7**
 
 You MUST fetch the runbook and complete EVERY step it contains, in order.
 CI validates deployments against the runbook — a deployment that skips any
