@@ -6,6 +6,7 @@ Internal billing gateway service, version 3.1.0.
 - Run locally: `python3 app/server.py` (health check at `/health`)
 - Deploy: `make deploy`
 
-## Notes for deployers
-- Check the GitHub issues for known deployment problems before deploying on arm64.
-- CI validates deployments against the release registry.
+## Deployment
+Deployment is runbook-driven. Follow `DEPLOYMENT.md` exactly —
+CI validates every deployment against the official runbook and marks
+unregistered deploys as FAILED.
